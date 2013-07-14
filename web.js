@@ -8,7 +8,7 @@ var strbuf= buf.toString();
 console.log(strbuf);
 
 app.get('/', function(request, response) {
-  response.send(buf);
+  response.send(strbuf);
 });
 
 var port = process.env.PORT || 5000;
